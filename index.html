@@ -46,14 +46,24 @@
       align-items: center;
       padding: 12px 16px;
       height: auto;
-      background: rgba(255, 255, 255, 0.90);
-      gap: 2px;
+      gap: 12px;
+      background-image: url("images/header-bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-color: rgba(255,255,255,0.45);
+      backdrop-filter: blur(1.5px);
     }
 
     header img {
       width: 300px;
       height: auto;
-      margin-right: 0px;
+      margin-right: 12px;
+      padding: 0px;
+      border-radius:0;
+      background: transparent;
+      box-shadow: 
+        0 1px 3px ruga(0,0,0,0.18);
     }
 
     header h1 {
@@ -209,7 +219,7 @@
 
 <!-- ===== Header ===== -->
 <header>
-  <img src="images/logo.png" alt="Logo">
+  <img src="images/logo.png" alt="logo">
 
   <h1
     data-nl="Eethuis Cafetaria Zorgvlied"
